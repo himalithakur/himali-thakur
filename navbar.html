@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #xyz {
+        position: absolute;
+        z-index: -1;
+        left: 0px;
+        top: 0px;
+        height: 700px;
+        width: 1600px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        height: 35px;
+        line-height: 35px;
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+    li {
+        float: left;
+        border-right: 1px solid blue;
+    }
+
+    a {
+        display: block;
+        padding: 0 28px;
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background-color: blue;
+    }
+
+    .abc a {
+        background-color: blue;
+    }
+
+
+    .container{
+        padding: 50px;display: flex;flex-wrap: nowrap;}
+
+
+    .card1{padding: 50px;margin: 10px;box-shadow: 3px;transition: 0.3s;display: inline-flex;}
+      .card1:hover{box-shadow: 0px 5px 8px;}
+
+    
+</style>
+
+<body><nav>
+    <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">services</a></li>
+        <li><a href="#">contact us</a></li>
+    </ul>
+    <div class="container" >
+        <img class="xyz" src="/imge/photo-1604085572504-a392ddf0d86a.jfif" height="700px" width="1000px" alt="">
+    </div>
+    <div class="card1"><img src="/imge/r1.jpg" alt="" width="150px" height="200px"></div>
+    <div class="card1"><img src="/imge/r2.jpeg" alt="" width="150px" height="200px"></div>
+    <div class="card1"><img src="/imge/r3.jpg" alt="" width="150px" height="200px"></div>
+    <div class="card1"><img src="/imge/r4.jpg" alt="" width="150px" height="200px"></div>
+    </div><footer>
+
+    </footer>
+</body>
+
+</html>

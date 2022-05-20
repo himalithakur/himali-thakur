@@ -1,0 +1,232 @@
+* {
+    color: blue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050A30;
+}
+
+
+.box {
+    color: antiquewhite;
+}
+
+span {
+    color: yellow;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    max-width: 80px;
+    color: aliceblue;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textbox {
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textbox h1 {
+    color: #333;
+    font-size: 4em;
+}
+
+.content .textbox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.imgbox {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%
+}
+
+.xyz {
+    vertical-align: sub;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.abc {
+    vertical-align: text-bottom;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.ttt {
+    width: 160px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.ttt:hover {
+    background-color: blue;
+}
+
+.rrr {
+    width: 60px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.rrr:hover {
+    background-color: blue;
+}
+
+.ddd {
+
+ display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding: 1em;
+    margin: 20px;
+}
+
+
+.eee {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    background-color: white;
+}
+
+.card1 {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 3px;
+    transition: 0.3s;
+    display: inline-flex;
+}
+
+.card1:hover {
+    box-shadow: 0px 5px 8px;
+}
+
+
+.container {
+    padding: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+.maincontent.a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.maincontent.h3 {
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font: bold;
+    font-size: 40px;
+    font-style: italic;
+}
+
+
+
+
+.tvd{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+}
+
+p{color: black;}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050A30;
+}
+
+
+
+.jjj{color: antiquewhite;text-align: center;}

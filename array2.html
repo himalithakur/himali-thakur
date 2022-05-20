@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        //
+        //obj.forEach((element) => {
+        //  console.log(element.x);
+        // console.log(index);
+        // console.log(array);
+
+        //});
+        //  const newarray=myarray.filter(element =>element.x>250);
+        //console.log(newarray);//
+
+
+        let fruits = [
+            'grapes', 'banana', 'mango', 'apple', 'orange'
+        ]
+        function Items(arr, query) {
+            return arr.filter (el =>  el.toLowerCase().indexOf(query.toLowerCase()) !== -1)
+        }
+        console.log(Items(fruits, 'ap'))
+        console.log(Items(fruits, 'an'))
+
+
+
+
+    </script>
+</body>
+
+</html>

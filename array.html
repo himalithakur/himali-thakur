@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <p id="demo"></p>
+    <script>
+
+        const obj = {
+            name: "john",
+            email: "abc@gmail.com",
+            skills: ["html",
+                "css",
+                "js",
+                "react",
+            ], descripttion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fugiat esse fugit eius officiis autem"
+
+        };
+        for (let key in obj) {
+            console.log(obj[key])
+            document.write(key + ":" + obj[key] + "<br>");
+        }
+
+        const abc = {
+            name: "himali",
+            email: "abc@gmail.com",
+            skills: ["html",
+                "css",
+                "js",
+                "react",
+            ], descripttion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fugiat esse fugit eius officiis autem"
+
+        };
+        for (let key in abc.skills) {
+            console.log(abc.skills[key])
+            document.write(key + ":" + abc.skills[key] + "<br>");
+
+        }
+           let obj1=[
+            
+              {
+
+                name: "himali",
+            email: "abc@gmail.com",
+            skills: ["html",
+                "css",
+                "js",
+                "react",
+            ], descripttion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fugiat esse fugit eius officiis autem"
+
+        }
+        for  (let key in abc.skills) {
+            console.log(abc.skills[key])
+            document.write(key + ":" + abc.skills[key] + "<br>")
+
+
+
+
+              };
+
+
+
+           ]
+        
+
+        
+
+
+             
+
+
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
